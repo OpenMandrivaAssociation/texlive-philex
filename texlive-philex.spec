@@ -1,3 +1,9 @@
+# revision 17879
+# category Package
+# catalog-ctan /macros/latex/contrib/philex
+# catalog-date 2010-04-29 12:33:30 +0200
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-philex
 Version:	1.0
 Release:	1
@@ -43,6 +49,7 @@ linguex package.
 %{_texmfdistdir}/tex/latex/philex/philex.sty
 %doc %{_texmfdistdir}/doc/latex/philex/philexmanualb.pdf
 %doc %{_texmfdistdir}/doc/latex/philex/philexmanualb.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ linguex package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
