@@ -1,12 +1,12 @@
-# revision 27785
+# revision 17879
 # category Package
 # catalog-ctan /macros/latex/contrib/philex
-# catalog-date 2012-09-23 11:23:18 +0200
+# catalog-date 2010-04-29 12:33:30 +0200
 # catalog-license lppl
-# catalog-version 1.01
+# catalog-version 1.0
 Name:		texlive-philex
-Version:	1.01
-Release:	1
+Version:	1.0
+Release:	2
 Summary:	Cross references for named and numbered environments
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/philex
@@ -38,9 +38,8 @@ linguex package.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/philex/philex.sty
-%doc %{_texmfdistdir}/doc/latex/philex/README
-%doc %{_texmfdistdir}/doc/latex/philex/philexmanual.pdf
-%doc %{_texmfdistdir}/doc/latex/philex/philexmanual.tex
+%doc %{_texmfdistdir}/doc/latex/philex/philexmanualb.pdf
+%doc %{_texmfdistdir}/doc/latex/philex/philexmanualb.tex
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +50,17 @@ linguex package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-2
++ Revision: 754877
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
++ Revision: 719248
+- texlive-philex
+- texlive-philex
+- texlive-philex
+- texlive-philex
+
