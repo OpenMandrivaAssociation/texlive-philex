@@ -1,12 +1,6 @@
-# revision 33315
-# category Package
-# catalog-ctan /macros/latex/contrib/philex
-# catalog-date 2014-03-28 20:06:26 +0100
-# catalog-license lppl
-# catalog-version 1.2
 Name:		texlive-philex
-Version:	1.2
-Release:	4
+Version:	1.3
+Release:	1
 Summary:	Cross references for named and numbered environments
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/philex
@@ -37,11 +31,8 @@ linguex package.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/philex/philex.sty
-%doc %{_texmfdistdir}/doc/latex/philex/README
-%doc %{_texmfdistdir}/doc/latex/philex/README.rtf
-%doc %{_texmfdistdir}/doc/latex/philex/philexmanual.pdf
-%doc %{_texmfdistdir}/doc/latex/philex/philexmanual.tex
+%{_texmfdistdir}/tex/latex/philex
+%doc %{_texmfdistdir}/doc/latex/philex
 
 #-----------------------------------------------------------------------
 %prep
