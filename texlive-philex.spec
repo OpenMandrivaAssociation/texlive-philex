@@ -1,6 +1,6 @@
 Name:		texlive-philex
 Version:	36396
-Release:	1
+Release:	2
 Summary:	Cross references for named and numbered environments
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/philex
