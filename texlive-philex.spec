@@ -3,7 +3,7 @@ Version:	36396
 Release:	2
 Summary:	Cross references for named and numbered environments
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/philex
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/philex
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/philex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/philex.doc.r%{version}.tar.xz
